@@ -25,7 +25,7 @@ env:
   SCCACHE_CACHE_SIZE: 20G
 
 jobs:
-  crates-io:
+  release:
     name: Publish crates.io package (${{ matrix.config.lane }})
     timeout-minutes: 30
     strategy:
