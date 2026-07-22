@@ -10,3 +10,6 @@
 - Keep release publishing operator-controlled and single-writer gated.
 - Keep the crates.io token scoped to the publish step.
 - Never expose secrets to pull-request jobs or untrusted scripts.
+- Persist compatible commit generations of Cargo targets so main seeds PRs and
+  unchanged sequential runs compile no dependencies.
+- Keep cache state workspace-owned; never repair permissions with `sudo`.
