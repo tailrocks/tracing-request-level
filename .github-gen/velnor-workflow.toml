@@ -2,7 +2,7 @@ schema = 1
 
 [generator]
 repository = "tailrocks/tracing-request-level"
-revision = "2773e123d8ea27d61d390e8862ffb87247ef9a13"
+revision = "4fa7a3a85f141a6bb95bc9bdf0eef9e3ddde165d"
 
 [workflow]
 runners = "both"
