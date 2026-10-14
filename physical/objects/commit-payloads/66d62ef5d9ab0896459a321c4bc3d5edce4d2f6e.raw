@@ -1,0 +1,35 @@
+tree a67599d4b52f525d7321a61b35cb209aa85a2809
+parent 8fb5ae485aa53dff28181de57d9e9becb013486f
+author Alexey Zhokhov <alexey@zhokhov.com> 1786864181 +0700
+committer GitHub <noreply@github.com> 1786864181 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqgWI1CRC1aQ7uu5UhlAAADEEQAAVSDogx0kGn1OZdPSTtBBCM
+ 38zcWVOOwTm/wAr1y7UxOGdlVLqQ90PQRqcRftFqh/w3yGNI6qDrKIBq+zU6NNlb
+ 1HNTc8eOX95F24lubM5zIdNqeyM1qawB9Borxvwgttf0/UB71uofJ9obsOGvj/Nk
+ 69G0+YAnH5/6ZiBLHZxcDdJ+ZJmok4qrZPMDFYysJ1DnF9I/0Lnkw8Q7Qh9LxeMo
+ uZHGkeiKBTvdyEVWoL/qem6m+yVf/jS+W7JaHHiWKjxTsKe0K0mVY+1TOnxqL4j2
+ s+75pAjuiUemdfSNNp0Y455Nv0+UeUKuuotnAc+hyQWrt13n5omhPJ2qgPuHilwI
+ 0es2YX2Atceyj3W1lTh4KfgZDvu9S5rD3CKKm8UfAnyOPA1c4ixQ2dxSVUgfgfC2
+ RHdIOpySSuYiW6Y+e2FMnBP49rOsR0Y3Y0GLzoMNtmM/wfFWIKiCUhCEYKHEooz+
+ IBLgmy0lcWRYzTglF2RcbYvClABKEgitQticbwt5kdOVpj+HcCEND19RmFYuzViy
+ ZUcMqFdIzx7WX6iedBd/mszQ+sQA2qaEmR93jtr4CDbsyr7WLYpA+7aOVjjIyom1
+ QXwMEAQmwQiC42BQwEKM7pyRD5h4FOcL7ZTcpk/K2qw778Mfua3/Ul86vdtO3SWA
+ pKLqZQFQVBBgPqA9fI/k
+ =YQpc
+ -----END PGP SIGNATURE-----
+ 
+
+ci: default runner selection to Velnor (#10)
+
+Adopts signed Velnor Actions 2026.8.25. Trusted automatic runs default
+to Velnor; workflow dispatch offers Velnor, GitHub, or both. Public
+unmerged code remains GitHub-hosted.
+
+Verification: generated caller only; actionlint clean.
+
+Signed-off-by: Alexey Zhokhov <donbeave@gmail.com>
+Co-authored-by: Codex <codex@openai.com>
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

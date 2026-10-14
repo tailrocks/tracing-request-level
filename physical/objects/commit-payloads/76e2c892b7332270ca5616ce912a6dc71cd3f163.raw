@@ -1,0 +1,29 @@
+tree b3eb2ec12959f4b10c95ecacacbedd9389111996
+parent c8621aad55c8c32f8fcec6c07101b4e894ee4d01
+author Alexey Zhokhov <alexey@zhokhov.com> 1788214454 +0700
+committer GitHub <noreply@github.com> 1788214454 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqlfy2CRC1aQ7uu5UhlAAAd+YQAEtMfsQH85XteUX/DEYUu0vi
+ b6aQ+kurRHUFNkD3aVUP71rZ3VQpWhNYZj0JuD8PjXaRFrybbGMv7ZCwLleV3sVV
+ fjPhgWlyBeNZjsTN5SjpM/YPXLgOLhLvihlo6dZ+2+Zq5jtFhlz72kvNllLv/I6r
+ Ya2B5RcNZGwGEQd7ywb0O+axg4Mhijpddtk//daRM83TqQgyuEoQCe68EM1yTrFU
+ SE5bjt1eZvjGcuwBkObiClQrMMMZWQ4BXOUHEdkQy0TQIOiQLPeCPKPd27qopj/g
+ Wg0pSYaz0R8Jc5zTjgNSTJPwm+TaM8mI/35kSS0J23eqsRg6Dvc4P812KOnzf0ht
+ 4Co/mzyatn3tlSyOr+WlOwP0hsl2yfuhamrbqa/S7Ua/HTPc8hn85yKTz70HwOug
+ p1A4CcLh1sE84TZrQPh09GnljOe1wXyKRU46zXfxkyEcrXzT7HR6QLMPES+PG4++
+ ZwEiDsxpURY2jrb1srtx1KHOa3au0xxsYe2dZWxCVgxjhJ3FOS80ST+OsMsQNxP2
+ Sq6qrjmGahoi6qYbDr7fcrB3H8gG3av7wPohN2aL5G11jKWPsMNccmnnOJigZOy2
+ UB5InkQxs9waNekAC3OgM2Zl1Ns7MUQ5h2UmF5AzoVp2hjG+MdWe+56P/EtklwXN
+ XeGDdV4sSyABA4DIX/my
+ =FlQB
+ -----END PGP SIGNATURE-----
+ 
+
+chore: consolidate agent instructions (#15)
+
+Consolidate repository instruction files to one root AGENTS.md and root
+CLAUDE.md symlink.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

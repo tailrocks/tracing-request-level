@@ -1,0 +1,38 @@
+tree 90f9fbeb2e4838ac970b9104b973d2078b4e38da
+parent aeaca706ae0485066cdfc20c65f999a3d2980b96
+author Alexey Zhokhov <alexey@zhokhov.com> 1784402562 +0700
+committer GitHub <noreply@github.com> 1784402562 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqW9KCCRC1aQ7uu5UhlAAADFoQAIfUZnN/5IIK+XVvphJwXZgS
+ VM45vzeLCbmrAJFTaGWdSvCgAOarb46hrO16+HiSWA5fG+eN/eUNwEBiAWuhD+07
+ UgYGLqyA9w2XSETJTUyuZM3yev47zaxhBVd1Kc/xSx6fIEoXROzUcWmYSebZMhUM
+ /04nk4+0vcZb/qKeBGGUA1u9TaTs62CfGo4aIVtfPQKThaHkMGFEMJF8ZHEwLOVY
+ B7qIttuDaqwQV//VrIPR8fo+e3dJQvnillo71Fb/Zd36+SauQmar5hzAFrHBsWOc
+ Gxs3W/4W5ziMZo779azWnNhk38yN8z/BaP8YKD/yBBgCsKXvHPIOc6Uxk+FomE90
+ kzp/zOeOG6uE4ItwfVMao5QhuaaaG3LVkMGPygPRUUKPUMBzMe0blTH31/XTBHm2
+ LXMb5HuwyyrdB/yK5kUp2v/o9Uh0jXf0oIX/p3McidU949y2nZ5wD2UxQRUT79A/
+ 03zvej2ZDtO9DS5wO885D0ey+ESHdgOwCpDfL7ljR7iYN+w3oFKZtpKnLvwXpp7p
+ Qr6/fCzqfQ9/Rm3OmFWf9xUQQtsN29I64JYfHctHalzAyA/BygsMtva30qKGiiRE
+ AfrJr+yQQBzN6SiaIZtat+gT2prp7eB6vqCBKtY0UvnsxyDauXSnDp/hhA0YsnR6
+ ijitok6kcUWZv5u+A3KF
+ =yeS8
+ -----END PGP SIGNATURE-----
+ 
+
+Standardize tracing-request-level CI for Velnor and GitHub (#1)
+
+* ci: standardize dual-runner workflows
+
+Co-authored-by: Codex <codex@openai.com>
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+
+* ci: cache release compilation
+
+Co-authored-by: Codex <codex@openai.com>
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+
+---------
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
+Co-authored-by: Codex <codex@openai.com>

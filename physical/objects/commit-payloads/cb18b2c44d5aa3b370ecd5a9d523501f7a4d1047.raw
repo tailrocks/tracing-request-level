@@ -1,0 +1,29 @@
+tree c36f91013f42ed8e6c117b1fe2b797991f0fa3ce
+parent 28f9f54028fb91c8027680fcb3f1abb18b44cc90
+author Alexey Zhokhov <alexey@zhokhov.com> 1784718244 +0700
+committer GitHub <noreply@github.com> 1784718244 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqYKOkCRC1aQ7uu5UhlAAAbM4QAAjKR02mPkqkQNC6qcAlQ9n5
+ OLpUI6FxcAhO/OblqtxFT/I/t5INvGzU5wIs6N8OalO5bqGp5Wpsw3fb2t70agbq
+ Y6CcbORkwokLekQCt8lo7xv0+2v3X2k54djnFHb+9oYthyhB0XLAL9Pq7UwQD9nh
+ WKFapjRjXdft5GFXUGUE4l1A6p3C49DrnfZXY74yawloUI3I97RG936tZK4Mf+Hr
+ zAIa7Khd2fmS3e4OUZYZqybDXvyzL06CVCUlWke7WQtpF3yMrQExQ7B6/9or2FEp
+ aap2GGOTwsqUCuWxH+hNgWdzncq6VROKmIQjoJ1EeRYLOUdG5M94y00zlXwW4tU5
+ KHW7YIPHhiLQjce6WpQOSFOBjYpEx7W+gg+EHu9R9ZrQbyqCcYR0AUj17Gf1KnoI
+ naWyutKZQHfZ/H6mzA8Xzf4Yg2Xxs+BEOzCeKqdOZyCC+ytkXew33+Z5SEwcoG8H
+ DdfYCtMjXlJdouryGyV2TMymk+wNgGSht/eyzkg1+FjFHnExmyzeJPT2porQBImm
+ 0Om84tNTtCXh7Qh+8XoZp4Fmg4cJEbssM5xxr2vhp3zm95k6jgGU0JcqlAfYRQZd
+ 1VXj1Y3mLxXVj3ZAL2y5mm+I6MFg+IfJtyFFCKtiERWVprgtn/kahP5/noKJWnFm
+ Pyzcr4kfXE4i6oi9CsX9
+ =jFdJ
+ -----END PGP SIGNATURE-----
+ 
+
+ci: canonicalize release job id (#2)
+
+Squash-merge of https://github.com/tailrocks/tracing-request-level/pull/2.
+
+ci: canonicalize release job id
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>

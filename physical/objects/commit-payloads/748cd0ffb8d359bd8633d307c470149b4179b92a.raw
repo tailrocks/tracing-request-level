@@ -1,0 +1,38 @@
+tree 7c42135bb0eca8124fb55ce30c4d38e08b74009d
+parent 68bb14ef8a7c4326085cb4c78f4098be088321a6
+author Alexey Zhokhov <alexey@zhokhov.com> 1787520531 +0700
+committer GitHub <noreply@github.com> 1787520531 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqi2YTCRC1aQ7uu5UhlAAAqWgQAIKyvP1165u1O7bCsqG+4qYp
+ 72yeCvTF5D01b0o8iyZzCkzP7XBxc1Fjhv14s3hX0Bn36daJCOPYBrMitUb4BXKo
+ xC3iDeGBCXFIvEABzybj/Kq4Vyt5E8wkqaIO8g5D9t8seHbEDII21L/JrZRLl32q
+ FPN6+pq2HJIIdWYTUTfq53KcHDzF8giFrLY0PW1ftQdA7J8pGels09yGpULADCtD
+ T+mD8A/ozhpZKve97eq4wTJrKk+2V3YUMCJLroJ9a84XWD/J0hAJTpVGMYUrM/v4
+ S8xH5w4AWu4ivzhwHjMLc8sRkN/+q3pmOnzvLeViwLNKVsssTWBDb7KzIhW+hpsT
+ 8brhZH4NoHo7MZYFGzG5VynNspt6UYBkQwNSZmZqwR8BNvy3EB6xFFs9243d9y2U
+ 41dIZgE5ppsNn2x6ZSPc6TCVCsGZD1K8OegRpnNNHvykYy5//OKl/E1pZnjTln74
+ 9zuyCbuFszUp2RutaBZJqCUcSbUApdng7XaK5FbccXSBHJ+t5Z/mUa6Gs1q0ci8h
+ 8Qeys5Cu1vp/0Dh/bhIFubVzn2NGa62x6aJypEFWkheN9KocwYXQgDIk56XHPrPE
+ LskjzQS78cCs5MfBnoGLkXDEMoY7PRhCqsem8/TViJkbpwVvPyXto5slPJS6sngF
+ 6SQsEIqo/kJELfwbDAjz
+ =1KuZ
+ -----END PGP SIGNATURE-----
+ 
+
+ci: adopt canonical lanes workflow (Velnor Actions 2026.8.31) (#12)
+
+Re-render .github/workflows/ci.yml from the velnor-actions-generator
+canonical template (release 2026.8.31).
+
+- Exact `lanes` workflow_dispatch input spec (velnor | github | both),
+default velnor
+- Velnor fleet default for pull_request/merge_group/schedule; push
+routes to GitHub lane per fleet occupancy policy
+- ci-required runs on Velnor by default, GitHub only when lane selects
+it
+- No hand edits: byte-identical render to the code class canonical
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>

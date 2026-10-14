@@ -1,0 +1,36 @@
+tree 0677d1052960c6b2c73752e77548f1bb97b2e322
+parent 748cd0ffb8d359bd8633d307c470149b4179b92a
+author Alexey Zhokhov <alexey@zhokhov.com> 1788084235 +0700
+committer GitHub <noreply@github.com> 1788084235 +0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqlAALCRC1aQ7uu5UhlAAAvuMQABoUPLIh2uju2R2Y4pFIat+r
+ 9oP0crvN3euUHc++fYgqZLhfm+Egj4vQbmHCmunuILWSuzRNiW+rCbdxPb4Qk3Z/
+ oNtRxb08weHifxKlqMLV9y02gcg81JOz9+Bm4LwLNDU+ITOE4nEh87yZ9sQn6FbF
+ vRLOolyLT6U6DVukoQKYpYYzbIK60zRJS8v8P2iji8EYgrdO48/FRqz4jbE54nZ2
+ XyWEAhEx18KtBHv4HFsz4nLWcsCDZFIbYi59VKU7PZKZhNDNdy53szWUpiTFO+Jk
+ Q1tkJIxgzLqXmKIajddhyLacEclFlnBQi4uXBH3466qKy55T7eTMidItyBZno1Hr
+ GlJT3ghKv9GNw7B6olyb3h2dO7pAmlSgsO6nNIhNh1FOUEVsVw8Bt6ivwW/1zeN3
+ BH1NImHXxJ5nwa/kOAJy4TsvKRrkDkJJtT1dHdy9NGmNexNZMkX1gM+eJrU2MMZJ
+ OaM/f9PQ8GlYb9E/k44VdmdOPeGslKO6FIXjgfMK+5FNNyGACXFLpkPrup4Hc9Au
+ yqM/xQC7fI+kL+nCSkPQ7ITitCKh9qFjb1IjZKjznK5vbB+jLaoVEUF3rIQYH5oK
+ IW8MaMCdEKuUOshmU9hKUjrMLHA10Mz5XoTJB/rHAja7MI/Spga0Qnmt12KXZizn
+ 0NWRfo/9idSYJz43x3a7
+ =aH1a
+ -----END PGP SIGNATURE-----
+ 
+
+ci: re-render ci.yml from velnor-actions 2026.8.32 (fleet-independent PR lanes) (#13)
+
+Re-renders `.github/workflows/ci.yml` from the canonical generator at
+release **2026.8.32** (`tailrocks/velnor-actions@c222e52`, "route public
+PRs to GitHub").
+
+- Bumps the three owner mirror pins to 2026.8.32
+(jackin-project@796dfcd, tailrocks@c222e52, ChainArgos@77173e8; all
+three tags carry byte-identical trees).
+- Routes `pull_request`/`merge_group` lanes and `ci-required` to
+`ubuntu-26.04` — PR checks no longer queue on the degraded Velnor fleet.
+- No job renames; required check `ci-required` is unchanged.
+
+Signed-off-by: Alexey Zhokhov <alexey@zhokhov.com>
